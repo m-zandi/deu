@@ -16,6 +16,21 @@
 	  "keywordsPr": "davudtech,servo,step,reluctance,reluctant,'davud tech'"
 	  "keywordsEn": "داودتک, داوودتک,'داوود تک','داود تک',سرو,استپ,'بی رغبت',"
 	}
+
+	<!--  redirecting any address to index  -->
+	
+       document.addEventListener("DOMContentLoaded", function() {
+        // The path after the domain (e.g., /fgjjgx)
+        const currentPath = window.location.pathname;
+
+        // If the path is anything other than root ("/"), redirect to the root ("/")
+        if (currentPath !== "/") {
+            window.location.href = "/";
+        }
+    });
+
+
+        <!--  redirecting any address to index  -->
 	</script>
 	<div style="display:none;">davudtech,servo,step,reluctance,reluctant,'davud tech',داودتک, داوودتک,'داوود تک','داود تک',سرو,استپ,'بی رغبت',</div>
 	
